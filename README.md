@@ -1,4 +1,4 @@
-T![logo](https://user-images.githubusercontent.com/82117939/235451810-e8964347-9869-42ab-a866-cfbe941fe93a.png)
+![logo](https://user-images.githubusercontent.com/82117939/235451810-e8964347-9869-42ab-a866-cfbe941fe93a.png)
 # No More Brackets (NMB)
 his is a chat mod for Minecraft version 1.19.2 Fabric & Forge that removes the ``"< >"`` brackets around player names in the chat. These brackets were added in vanilla with the new chat reporting system, but can be distracting for some players (especially for server owners like me). With this mod, players can enjoy a cleaner chat experience without the distraction of unnecessary brackets.
 
