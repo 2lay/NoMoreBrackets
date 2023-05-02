@@ -1,15 +1,16 @@
+![logo](https://user-images.githubusercontent.com/82117939/235451810-e8964347-9869-42ab-a866-cfbe941fe93a.png)
 # No More Brackets (NMB)
-This is a chat mod for Minecraft version 1.19.2 that removes the ``"< >"`` brackets around player names in the chat. These brackets were added in the vanilla game's new chat reporting system, but can be distracting for some players. With this mod, players can enjoy a cleaner chat experience without the distraction of unnecessary brackets.
+This is a chat mod for Minecraft version 1.19.2 Fabric & Forge that removes the ``"< >"`` brackets around player names in the chat. These brackets were added in vanilla with the new chat reporting system, but can be distracting for some players (especially for server owners like me). With this mod, players can enjoy a cleaner chat experience without the distraction of unnecessary brackets.
 
 ``Installation``
-To install this mod, simply download the latest release from the releases page and add it to your Minecraft mods folder. Make sure to also have Forge installed.
+To install this mod, simply download the latest release for Forge/Fabric from the releases page and add it to your Minecraft mods folder. 
 
 ``Compatibility``
-This mod is an unofficial add-on to FTBRanks, and will work best with that mod. It removes ranks out of the box without changing the source code. It may be compatible with other mods, but has only been tested with FTBRanks.
+This mod is an unofficial add-on to FTBRanks, and will work only with that mod out of the box. **It will not be compatible with other chat formating mods without changing the source code**. So please don't create issues if it doesn't work with other chat formating mods.
 
 ``Support``
-If you encounter any issues with this mod, please report them on the Issues page of this repository. Please provide as much information as possible to help us diagnose and fix the issue. Please note that modifying the source code of this mod is not recommended, as it may cause compatibility issues or unexpected behavior. If you have a suggestion for a modification, please create an issue and discuss it with the mod's maintainer before making any changes.
+If you encounter any issues with this mod, please report them on the Issues page of this repository. Please provide as much information as possible to help us diagnose and fix the issue. Please take a note that modifying the source code of this mod is not recommended without knowledge, as we don't know what you have modified, **support is limited** for that reason is limited for modified builds of this mod. If you have a suggestion for a modification, please create an issue and discuss it with us.
 
 ``Contributing``
-    If you are interested in contributing to this mod, feel free to fork this repository and make changes. Pull requests are welcome and will be reviewed by the mod's maintainer.
+ If you are interested in contributing to this mod, feel free to fork this repository on the right branch and make changes. Pull requests are welcome and will be reviewed by us.
 
