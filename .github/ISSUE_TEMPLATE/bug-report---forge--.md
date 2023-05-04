@@ -1,8 +1,8 @@
 ---
-name: Bug report
+name: Bug report [ Forge ]
 about: Create a report to help us improve our mod
 title: ''
-labels: Bug
+labels: Bug, Forge
 assignees: ''
 
 ---
