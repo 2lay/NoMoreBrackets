@@ -1,16 +1,14 @@
-package tmw.gg.NMB.events;
+package tmw.gg.NMB.events.server;
 
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraftforge.event.ServerChatEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import tmw.gg.NMB.events.common.LoggerEvent;
 
-import java.util.UUID;
-
-public class ChatEvent {
-    public static Pair<Boolean, Component> onServerChat(ServerPlayer serverPlayer, Component messageComponent, UUID uuid) {
+public class ServerChatEvent {
+    public static Pair<Boolean, Component> onServerChat(ServerPlayer serverPlayer, Component messageComponent) {
         String user = serverPlayer.getName().getString();
         String message = messageComponent.getString();
 
@@ -29,12 +27,12 @@ public class ChatEvent {
         return Pair.of(true, mutableOutput);
     }
     @SubscribeEvent
-    public void onServerChat(ServerChatEvent e) {
+    public void onServerChat(net.minecraftforge.event.ServerChatEvent e) {
         ServerPlayer serverPlayer = e.getPlayer();
         Component originalMessage = e.getMessage();
         MutableComponent fullMessage = Component.literal("<" + serverPlayer.getName().getString() + "> ").append(originalMessage);
 
-        Pair<Boolean, Component> pair = ChatEvent.onServerChat(serverPlayer, fullMessage, serverPlayer.getUUID());
+        Pair<Boolean, Component> pair = ServerChatEvent.onServerChat(serverPlayer, fullMessage);
         if (pair != null) {
             if (pair.getFirst()) {
                 MutableComponent newMessage = pair.getSecond().copy();
@@ -43,7 +41,7 @@ public class ChatEvent {
 
                     serverPlayer.server.execute(() -> {
                         LoggerEvent.logger.info(newMessage.getString());
-                        CastMessageEvent.broadcastMessage(serverPlayer.level, newMessage);
+                        ServerCastMessageEvent.broadcastMessage(serverPlayer.level, newMessage);
                     });
                 }
             }

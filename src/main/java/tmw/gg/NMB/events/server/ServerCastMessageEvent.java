@@ -1,4 +1,4 @@
-package tmw.gg.NMB.events;
+package tmw.gg.NMB.events.server;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
@@ -8,7 +8,7 @@ import net.minecraft.world.level.Level;
 
 import java.util.Iterator;
 
-public class CastMessageEvent {
+public class ServerCastMessageEvent {
     public static void sendMessage(Player player, MutableComponent message) {
         sendMessage(player, message, false);
     }
