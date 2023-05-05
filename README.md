@@ -7,7 +7,7 @@ To install this mod, simply download the latest release for Forge/Fabric from th
 
 | ![Modrinth Logo](https://raw.githubusercontent.com/TeamTMW/.github/main/images/modrinth.png) | ![Curseforge Logo](https://raw.githubusercontent.com/TeamTMW/.github/main/images/curseforge.png) |
 |--|--|
-|[Download on Modrinth](https://modrinth.com/mod/nmb) | [Download on Curseforge](https://legacy.curseforge.com/minecraft/mc-mods/no-more-brackets-nmb) |
+|[Download on Modrinth](https://modrinth.com/mod/nmb) | [Download on Curseforge](https://curseforge.com/minecraft/mc-mods/no-more-brackets-nmb) |
 
 ``Compatibility``
 This mod is an unofficial add-on to FTBRanks, and will work only with that mod out of the box. **It will not be compatible with other chat formating mods without changing the source code**. So please don't create issues if it doesn't work with other chat formating mods.
