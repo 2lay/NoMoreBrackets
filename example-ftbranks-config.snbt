@@ -8,7 +8,7 @@
 	vip: {
 		name: "VIP"
 		power: 50
-		ftbranks.name_format: "&bVIP {name}&f:"
+		ftbranks.name_format: "&bVIP {name}&f: "
 	}
 	admin: {
 		name: "Admin"
