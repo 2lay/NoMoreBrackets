@@ -4,6 +4,11 @@ This is a chat mod for Minecraft version 1.19.2 Fabric & Forge that removes the 
 
 ``Installation``
 To install this mod, simply download the latest release for Forge/Fabric from the releases page and add it to your Minecraft mods folder. 
+[](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
+
+| [![](![d0d0fa84ec9d7863f8ce01c6a4352272374](https://user-images.githubusercontent.com/82117939/236543473-1243c00f-e7ef-412c-bb36-990b1e3ee4c1.png))](https://modrinth.com/mod/nmb)  |  [![](![curseforge-logo-vector-removebg-preview (1)](https://user-images.githubusercontent.com/82117939/236543847-c529c11a-1206-4d36-b8e5-d9e0704e6fa8.png)
+)](https://www.curseforge.com/minecraft/mc-mods/nmb) |
+
 
 ``Compatibility``
 This mod is an unofficial add-on to FTBRanks, and will work only with that mod out of the box. **It will not be compatible with other chat formating mods without changing the source code**. So please don't create issues if it doesn't work with other chat formating mods.
